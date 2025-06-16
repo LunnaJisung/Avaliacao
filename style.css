@@ -1,1 +1,26 @@
-
+body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+        .foto {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            width: 150px;
+            border-radius: 50%;
+        }
+        .info {
+            margin-top: 50px;
+            text-align: left;
+            max-width: 600px;
+        }
+        .voltar {
+            display: inline-block;
+            margin-top: 30px;
+            padding: 10px 20px;
+            background-color: #333;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
