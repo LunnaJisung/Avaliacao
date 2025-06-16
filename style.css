@@ -11,9 +11,9 @@
         /* Logo no canto superior esquerdo */
         .logo-escola {
             position: absolute;
-            top: 20px;
-            left: 20px;
-            height: 80px;
+            top: 10px;
+            left: 10px;
+            height: 70px;
             z-index: 10;
         }
         
