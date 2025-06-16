@@ -24,3 +24,12 @@
             border-radius: 5px;
             font-size: 1.2em;
         }
+ /* Título AVALIAÇÃO grande e centralizado */
+        .titulo-avaliacao {
+            font-size: 6rem; /* Tamanho muito grande */
+            font-weight: bold;
+            margin: 0;
+            line-height: 1;
+            color: #0066cc;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+        }
