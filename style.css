@@ -1,35 +1,94 @@
  body {
             font-family: Arial, sans-serif;
-            text-align: center;
             margin: 0;
             padding: 0;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            position: relative;
         }
-        .logo {
+        
+        /* Logo no canto superior esquerdo */
+        .logo-escola {
             position: absolute;
             top: 20px;
             left: 20px;
-            width: 100px;
+            height: 80px;
+            z-index: 10;
         }
-        .titulo {
-            margin-top: 100px;
-            font-size: 3em;
+        
+        /* Container central para o título e botão */
+        .centro {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
         }
-        .botao {
-            display: inline-block;
-            margin-top: 50px;
-            padding: 15px 30px;
-            background-color: #4CAF50;
-            color: white;
-            text-decoration: none;
-            border-radius: 5px;
-            font-size: 1.2em;
-        }
- /* Título AVALIAÇÃO grande e centralizado */
+        
+        /* Título AVALIAÇÃO grande e centralizado */
         .titulo-avaliacao {
-            font-size: 6rem; /* Tamanho muito grande */
+            font-size: 6rem;
             font-weight: bold;
             margin: 0;
             line-height: 1;
             color: #0066cc;
             text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+            margin-bottom: 30px; /* Espaço para a imagem */
+        }
+        
+        /* Estilo para a imagem abaixo do título */
+        .imagem-abaixo-titulo {
+            max-width: 400px;
+            width: 100%;
+            height: auto;
+            margin-bottom: 40px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        
+        /* Botão abaixo da imagem */
+        .botao-sobre {
+            padding: 15px 40px;
+            background-color: #0066cc;
+            color: white;
+            text-decoration: none;
+            border-radius: 30px;
+            font-size: 1.5rem;
+            font-weight: bold;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        
+        .botao-sobre:hover {
+            background-color: #004d99;
+            transform: translateY(-2px);
+            box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+        }
+ body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+        .foto {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            width: 150px;
+            border-radius: 50%;
+        }
+        .info {
+            margin-top: 50px;
+            text-align: left;
+            max-width: 600px;
+        }
+        .voltar {
+            display: inline-block;
+            margin-top: 30px;
+            padding: 10px 20px;
+            background-color: #333;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
         }
